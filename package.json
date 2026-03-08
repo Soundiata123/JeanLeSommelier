@@ -1,7 +1,7 @@
 {
-  "name": "cave-wine-bot",
-  "version": "2.0.0",
-  "description": "CAVE — Personal Wine Agent for Telegram with real-time search and daily alerts",
+  "name": "jean-le-sommelier",
+  "version": "3.0.0",
+  "description": "Jean Le Sommelier — Personal Wine Agent with memory, photos, voice, alerts & weekly digest",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
@@ -9,9 +9,11 @@
   "dependencies": {
     "node-telegram-bot-api": "^0.66.0",
     "@anthropic-ai/sdk": "^0.24.0",
-    "node-cron": "^3.0.3"
+    "node-cron": "^3.0.3",
+    "form-data": "^4.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
   }
 }
+
