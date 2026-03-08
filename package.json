@@ -1,0 +1,17 @@
+{
+  "name": "cave-wine-bot",
+  "version": "2.0.0",
+  "description": "CAVE — Personal Wine Agent for Telegram with real-time search and daily alerts",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "@anthropic-ai/sdk": "^0.24.0",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
